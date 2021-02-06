@@ -36,8 +36,9 @@ li {
 
 h1 {
     font-family: "Abril Fatface", cursive;
-    font-size: 100px;
+    font-size: 90px;
     margin: 20px auto 0 auto;
+    width: 100%;
 }
 
 h2 {
@@ -46,8 +47,23 @@ h2 {
 
 img {
     width: 30%;
+    border-radius: 15px;
 }
 
 .images {
     display: inline-flex;
+    justify-content: space-around;
+}
+
+#main {
+    width: 100%;
+}
+
+#mission {
+    display: flex;
+    align-content: center;
+}
+
+#mission-description {
+    width: 75%;
 }
